@@ -25,20 +25,6 @@ git clone https://github.com/CarlosSerafimm/xadrez_game.git
 cd xadrez_game
 ```
 
-### 🔨 Compilar o código
-
-```bash
-javac -d bin src/**/*.java
-```
-
-### ▶️ Executar o jogo
-
-```bash
-java -cp bin com.seu.pacote.principal.NomeDaClassePrincipal
-```
-
-> **Nota**: Substitua `com.seu.pacote.principal` pelo nome do pacote principal do projeto e `NomeDaClassePrincipal` pela classe que contém o método `main`.
-
 ## 🎮 Como Jogar
 
 1. **Início**: Ao iniciar o jogo, o tabuleiro será exibido no console com a posição inicial das peças.
@@ -46,14 +32,3 @@ java -cp bin com.seu.pacote.principal.NomeDaClassePrincipal
 3. **Turnos**: O jogo alterna automaticamente entre os jogadores após cada movimento válido.
 4. **Condições de vitória**: O jogo termina quando um dos reis está em xeque-mate ou ocorre um empate conforme as regras oficiais do xadrez.
 
-## 🤝 Contribuição
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests com melhorias, correções de bugs ou novas funcionalidades.
-
-## 📜 Licença
-
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
-
----
-
-> *Este README foi gerado com base nas informações disponíveis no repositório e em descrições gerais de projetos de xadrez em Java.*
